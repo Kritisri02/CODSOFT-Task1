@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0c9c9;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav ul li .btn {
+    background-color: #ff66a3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('herohttps://th.bing.com/th/id/OIP.CbRUljFjef3JTgtuoHjylgHaEP?w=270&h=180&c=7&r=0&o=5&pid=1.7.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #ff66a3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.features, .about, .services, .footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature, .services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+.features .feature h2, .services .service h2 {
+    color: #ff66a3;
+}
+
+.about h2, .services h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
